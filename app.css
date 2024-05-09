@@ -1,0 +1,68 @@
+.sidebar_nav{
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.sidebar_nav a{
+    padding: 16px;
+    font-size: 20px;
+    color: white;
+    display: block;
+    text-align: justify;
+}
+
+body{
+    background-color:rgb(92, 52, 52);
+    font-family: "Open Sans", Arial, sans-serif;
+    color:white;
+    
+}
+/*.aside{
+    display: inline-block;
+    width: 500px;
+    min-width: 400px;
+    background-color: bisque;
+}
+
+
+.squarelogo{
+    width: 28px;
+    height: 28px;
+}
+
+.navbardown1{
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.33;
+
+}
+.navbardown2{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1;
+
+}
+.navbar toggler{
+    color: blue;
+}
+#navLinks{
+    color: white;
+}
+.buttondown{
+    background-color: #3478f6;
+    color:white;
+    padding: 8px 16px 6;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+  
+} */
+.card{
+    display: flexbox;
+    width: 300px ;
+}
