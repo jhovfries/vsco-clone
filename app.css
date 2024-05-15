@@ -7,6 +7,7 @@
     position: static;
     margin-bottom: 100px;
     height:500px;
+    font-family: "Gothic A1", sans-serif;
 }
 .namevsco {
     font-size: 14px;
@@ -34,7 +35,7 @@
 
 #JF { 
     margin-left: 200px;
-    font-family:'Lato',sans-serif;
+    font-family: "Gothic A1", sans-serif;
     font-size: 14px;
     font-weight: 600;
     padding-bottom: 10px;
@@ -49,7 +50,7 @@
 }
 
 #SI {
-    font-family:'Lato',sans-serif;
+    font-family: "Gothic A1", sans-serif;
     font-size: 14px;
     font-weight: 600;
     padding-bottom: 10px;
@@ -97,7 +98,7 @@
 
 #SUb {
     color: black;
-    font-family:'Lato',sans-serif;
+    font-family: "Gothic A1", sans-serif;
     font-size: 14px;
     font-weight: 600;
     padding-bottom: 6px;
@@ -114,7 +115,7 @@
 
 #LIb {
     color: white;
-    font-family:'Lato',sans-serif;
+    font-family: "Gothic A1", sans-serif;
     font-size: 14px;
     font-weight: 600;
     padding-bottom: 6px;
@@ -130,7 +131,7 @@
 
 body {
     background-color:#111111;
-    font-family: "Open Sans", Arial, sans-serif;
+    font-family: "Gothic A1", sans-serif;
     color:white;
 }
 .title h1 {
@@ -182,8 +183,7 @@ body {
 }
 
 #JFsecond { 
-    font-family:'Lato',sans-serif;
-    font-size: 14px;
+    font-family: "Gothic A1", sans-serif;
     font-weight: 600;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -197,7 +197,7 @@ body {
 }
 
 #AFsecond {
-    font-family:'Lato',sans-serif;
+    font-family: "Gothic A1", sans-serif;
     font-size: 14px;
     font-weight: 600;
     padding-bottom: 10px;
@@ -230,7 +230,7 @@ body {
 
 #JFthird { 
     margin-top: 100px;
-    font-family:'Lato',sans-serif;
+    font-family: "Gothic A1", sans-serif;
     font-size: 14px;
     font-weight: 600;
     padding-bottom: 10px;
@@ -245,7 +245,7 @@ body {
 }
 
 #VMthird {
-    font-family:'Lato',sans-serif;
+    font-family: "Gothic A1", sans-serif;
     font-size: 14px;
     font-weight: 600;
     padding-bottom: 10px;
@@ -259,3 +259,67 @@ body {
     position: relative;
     text-align: left;
 }
+
+.cardsforcarousel{ 
+    margin-left: 160px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    margin-right: 0;
+    
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    
+    
+}
+.card-bodycarousel {
+    width: 1050px;
+    height: 680px;
+}
+
+.callingall{
+    font-weight: 600;
+    color:white;
+    font-size: 46px;
+    text-align: justify;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    transform: translate(-10%, -10%);
+    display: block;
+}
+
+.pmembership {
+    font-family:'Lato',sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    position: absolute;
+    top: 70px;
+    left: 85px;
+    transform: translate(-20%, -20%);
+    display: block;
+}
+.vscohubfor{
+    display: flex;
+    font-weight: 600;
+    color:white;
+    font-size: 46px;
+    text-align: justify;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    transform: translate(-10%, -10%);
+    display: block;
+}
+
+.pintroducing {
+    font-family:'Lato',sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    position: absolute;
+    top: 70px;
+    left: 200px;
+    transform: translate(-20%, -20%);
+    display: block;
+}
+
