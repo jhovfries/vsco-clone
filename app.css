@@ -211,7 +211,7 @@ body {
     position: relative;
     text-align: left;
 }
-.textcontent {
+.textcontent, .text_div_scnd {
     margin-top: 150px;
     margin-left: 300px;
     display: flex;
@@ -221,14 +221,15 @@ body {
   
     
 }
-.text_div h2{
+
+.text_div h2, .text_div_scnd h2{
     font-weight: 600;
 }
-.text_div p{
+.text_div, .text_div_scnd p{
     font-size: 24px;
 }
 
-#JFthird { 
+#JFthird, #JFfive { 
     margin-top: 100px;
     font-family: "Gothic A1", sans-serif;
     font-size: 14px;
@@ -244,7 +245,7 @@ body {
     text-align: left; 
 }
 
-#VMthird {
+#VMthird, #VCfive {
     font-family: "Gothic A1", sans-serif;
     font-size: 14px;
     font-weight: 600;
@@ -260,66 +261,158 @@ body {
     text-align: left;
 }
 
-.cardsforcarousel{ 
+/*.cardsforcarousel { 
     margin-left: 160px;
     margin-top: 200px;
     margin-bottom: 100px;
-    margin-right: 0;
-    
     display: flex;
     flex-wrap: nowrap;
-    overflow: scroll;
-    
-    
+    overflow-x:scroll;    
+    height: 690px;
 }
-.card-bodycarousel {
-    width: 1050px;
-    height: 680px;
-}
-
-.callingall{
-    font-weight: 600;
-    color:white;
-    font-size: 46px;
-    text-align: justify;
-    position: absolute;
-    top: 100px;
-    left: 100px;
-    transform: translate(-10%, -10%);
-    display: block;
+.Img-bt1, .Img-bt2, .Img-bt4 {
+    margin-left: 24px;
+    margin-top: -60px;
 }
 
-.pmembership {
-    font-family:'Lato',sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    position: absolute;
-    top: 70px;
-    left: 85px;
-    transform: translate(-20%, -20%);
-    display: block;
+.bImg1, .bImg2, .bImg4 {
+    font-family: "Gothic A1", sans-serif;
+    font-weight: bold;
+    padding:10px 25px 10px 25px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    border:none;
+    position: relative;
+    text-align: center; 
+    font-size: 10px;
 }
-.vscohubfor{
+.Img-bt3, .Img-bt5 {
+    margin-left: 75px;
+    margin-top: -60px;
+}
+
+.bImg3, .bImg5 {
+    font-family: "Gothic A1", sans-serif;
+    font-weight: bold;
+    padding:10px 25px 10px 25px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    border:none;
+    position: relative;
+    text-align: center; 
+    font-size: 10px;
+}
+.Img-bt6 {
+    margin-left: 40px;
+    margin-top: -60px;
+}
+
+.bImg6 {
+    font-family: "Gothic A1", sans-serif;
+    font-weight: bold;
+    padding:10px 25px 10px 25px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    border:none;
+    position: relative;
+    text-align: center; 
+    font-size: 10px;
+}
+*/
+#JFfour { 
+    font-family: "Gothic A1", sans-serif;
+    font-weight: 600;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    border:none;
+    position: relative;
+    text-align: left; 
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+#AFfour {
+    font-family: "Gothic A1", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    color: white;
+    background: none;
+    border:solid 1px white;
+    position: relative;
+    text-align: left;
+  
+}
+.buttonfive {
+    margin-left: 300px;
+}
+
+
+
+.carousel-inner{
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-left: 160px;
     display: flex;
-    font-weight: 600;
-    color:white;
-    font-size: 46px;
-    text-align: justify;
-    position: absolute;
-    top: 200px;
-    left: 200px;
-    transform: translate(-10%, -10%);
-    display: block;
+    justify-content:space-between;
+    margin-right: 0;
+    flex-wrap: wrap;
 }
 
-.pintroducing {
-    font-family:'Lato',sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    position: absolute;
-    top: 70px;
-    left: 200px;
-    transform: translate(-20%, -20%);
-    display: block;
+
+.carousel-control-prev{
+    background: none;
+    border: none;
+}
+.carousel-control-next{
+    background: none;
+    border: none;
+   
+}
+
+@keyframes slide {
+    from{
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+.gallery-slide {
+    white-space: nowrap;
+    animation: 30s slide infinite linear;
+
+}
+.gallery-loop{
+    margin-top: 100px;
+    margin-left: 160px;
+    overflow: hidden;
+    padding: 0;
+}
+
+.gallery-slide img {
+    height: 285px;
+    margin: 0 18px;
+}
+.photo-camera-final {
+    background-image: url("https://assets-global.website-files.com/64e27cdd42db7ecf119d5e61/6619bddec0ae5a57c213e55a_cta-photographers%402x-p-2000.webp");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 100px;
+    display: grid;
+    position: static;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    height:535px;
+    font-family: "Gothic A1", sans-serif;
+
 }
 
