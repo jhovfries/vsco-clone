@@ -1,0 +1,108 @@
+body {
+    background-color:#FFFF;
+    font-family: "Gothic A1", sans-serif;
+    color:black;
+    
+}
+.principalviewpage {
+ 
+    background-image: url("https://assets-global.website-files.com/64e27cdd42db7ecf119d5e61/662b67b3fba923b8dd3a1642_hp-header-cover%402x-p-2000.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 100px;
+    display: grid;
+    position: relative;
+    margin-bottom: 100px;
+    height:450px;
+    font-family: "Gothic A1", sans-serif;
+    overflow: hidden;
+   
+}
+
+
+
+@media screen and (min-width:768px){
+    
+    #MainNavbar{
+        z-index: 1;
+        flex-direction: column;
+        align-items: flex-start;
+        background: black;
+        margin-top: 0;
+    }
+    
+    .navbar{
+        overflow-y: hidden;
+        position: fixed;
+        width: 160px;
+        height: 100vh;
+        align-items: flex-start;
+    
+    }
+    .navbar-brand{
+        margin-left: 2rem;
+        margin-top: -1.8rem;
+        font-size: 12px;
+    }
+}
+    
+    
+    #navLinks ul{
+        flex-direction: column;
+        margin-top: 100px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 18px;
+        font-weight:500;
+        color: white;
+    }
+    
+    #SUb{
+    
+        color: black;
+        font-family: "Gothic A1", sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        padding-bottom: 6px;
+        padding-top: 6px;
+        padding-left: 20px;
+        padding-right: 40px;
+        border-radius: 20px;
+        background-color: white;
+        border:none;
+        position: relative;
+        text-align: left;
+        margin-top: 500px;
+    }
+    #LIb{
+        color: white;
+        font-family: "Gothic A1", sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        padding-bottom: 6px;
+        padding-top: 6px;
+        padding-left: 20px;
+        padding-right: 45px;
+        border-radius: 20px;
+        background: none;
+        border: solid 1px white;
+        position: relative;
+        text-align: left;
+        margin-top: 10px;
+    }
+
+    .form-login{
+        display:block;
+        
+        position: absolute;
+        top: 10%;
+        left: 45%;
+        
+    }
+    .form1 input{
+        border-radius: 10px;
+        padding: 20px 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: none;
+        background-color: #dcdcdc;
+    }

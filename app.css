@@ -1,7 +1,8 @@
 body {
-    background-color:#111111;
+    background-color:#111;
     font-family: "Gothic A1", sans-serif;
     color:white;
+    
 }
 .principalviewpage {
  
@@ -15,13 +16,79 @@ body {
     height:450px;
     font-family: "Gothic A1", sans-serif;
     overflow: hidden;
-}
-.namevsco {
-    font-size: 14px;
-    margin-left: 35px;
-    margin-top: -20px;
+   
 }
 
+
+
+@media screen and (min-width:768px){
+    
+    #MainNavbar{
+        z-index: 1;
+        flex-direction: column;
+        align-items: flex-start;
+        background: black;
+        margin-top: 0;
+    }
+    
+    .navbar{
+        overflow-y: hidden;
+        position: fixed;
+        width: 160px;
+        height: 100vh;
+        align-items: flex-start;
+    
+    }
+    .navbar-brand{
+        margin-left: 2rem;
+        margin-top: -1.8rem;
+        font-size: 12px;
+    }
+}
+    
+    
+    #navLinks ul{
+        flex-direction: column;
+        margin-top: 100px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 18px;
+        font-weight:500;
+        color: white;
+    }
+    
+    #SUb{
+    
+        color: black;
+        font-family: "Gothic A1", sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        padding-bottom: 6px;
+        padding-top: 6px;
+        padding-left: 20px;
+        padding-right: 40px;
+        border-radius: 20px;
+        background-color: white;
+        border:none;
+        position: relative;
+        text-align: left;
+        margin-top: 500px;
+    }
+    #LIb{
+        color: white;
+        font-family: "Gothic A1", sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        padding-bottom: 6px;
+        padding-top: 6px;
+        padding-left: 20px;
+        padding-right: 45px;
+        border-radius: 20px;
+        background: none;
+        border: solid 1px white;
+        position: relative;
+        text-align: left;
+        margin-top: 10px;
+    }
 
 @keyframes slide2{
     from{
@@ -50,37 +117,8 @@ body {
     margin: 0;
 }
 
-.footer-list{
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 48px;
-    margin-top: -126px;
-}
-.footer-list li{
-    list-style: none;
-
-}
-.container-list-footer h4{
-    justify-content: right;
-    
-}
 
 
-
-
-
-
-
-
-
-
-
-
-.menubar {
-    margin-top: 120px;
-    z-index:auto;
-   
-}
 
 .title {  
     margin-left: 200px;
@@ -133,65 +171,7 @@ body {
     padding-left: 50px;
 }
 
-.sidebar_nav {
-    height: 100%;
-    width: 160px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: black;
-    overflow-x: hidden;
-    padding-top: 20px;
-}
 
-.sidebar_nav a {
-    padding: 16px;
-    font-size: 20px;
-    color: white;
-    display: block;
-    text-align: justify;
-}
-
-.sideb {
-    margin-top: 450px;
-    display: list-item;
-  
-    padding-right: 10px;
-    margin-left: 10px;
-}
-
-#SUb {
-    color: black;
-    font-family: "Gothic A1", sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    padding-bottom: 6px;
-    padding-top: 6px;
-    padding-left: 20px;
-    padding-right: 40px;
-    border-radius: 20px;
-    background-color: white;
-    border:none;
-    position: relative;
-    text-align: left;
-    margin-bottom: 20px;
-}
-
-#LIb {
-    color: white;
-    font-family: "Gothic A1", sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    padding-bottom: 6px;
-    padding-top: 6px;
-    padding-left: 20px;
-    padding-right: 45px;
-    border-radius: 20px;
-    background: none;
-    border: solid 1px white;
-    position: relative;
-    text-align: left;
-}
 
 
 .title h1 {
@@ -525,4 +505,80 @@ body {
     border:solid 1px white;
     position: relative;
     text-align: left;
+}
+
+.footer-list{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -126px;
+    content: space-between;
+}
+.footer-list li  {
+    list-style: none;
+    margin: 0 40px;
+    justify-content: left;
+    line-height: 19px;
+    font-size: 16px;
+
+}
+.footer-list li :hover{
+    color: white;
+}
+
+
+.a-link-footer{
+    color: white;
+}
+.container-list-footer h4{
+    padding-left: 38px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+#Buttonfooter1 {
+    font-family: "Gothic A1", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    color: white;
+    background: none;
+    border:solid 1px white;
+    position: relative;
+    text-align: left;
+    margin-left: 1300px;
+
+}
+#Buttonfooter2 {
+    font-family: "Gothic A1", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    color: white;
+    background: none;
+    border:solid 1px white;
+    position: relative;
+    text-align: left;
+
+}
+.footer-brand{
+    color: white;
+    font-weight: bold;
+    margin-top: 16px;
+}
+.buttonandbrand{
+    display: flex;
+
+}
+.buttonandbrand img{
+    margin-left: 200px;
+   
 }
