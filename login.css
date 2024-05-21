@@ -1,108 +1,180 @@
 body {
-    background-color:#FFFF;
-    font-family: "Gothic A1", sans-serif;
-    color:black;
-    
+  background-color: #ffff;
+  font-family: "Gothic A1", sans-serif;
+  color: black;
 }
 .principalviewpage {
- 
-    background-image: url("https://assets-global.website-files.com/64e27cdd42db7ecf119d5e61/662b67b3fba923b8dd3a1642_hp-header-cover%402x-p-2000.jpg");
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: 100px;
-    display: grid;
-    position: relative;
-    margin-bottom: 100px;
-    height:450px;
-    font-family: "Gothic A1", sans-serif;
-    overflow: hidden;
-   
+  background-image: url("https://assets-global.website-files.com/64e27cdd42db7ecf119d5e61/662b67b3fba923b8dd3a1642_hp-header-cover%402x-p-2000.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100px;
+  display: grid;
+  position: relative;
+  margin-bottom: 100px;
+  height: 450px;
+  font-family: "Gothic A1", sans-serif;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  #MainNavbar {
+    z-index: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    background: black;
+    margin-top: 0;
+  }
+
+  .navbar {
+    overflow-y: hidden;
+    position: fixed;
+    width: 160px;
+    height: 100vh;
+    align-items: flex-start;
+  }
+  .navbar-brand {
+    margin-left: 2rem;
+    margin-top: -1.8rem;
+    font-size: 12px;
+  }
+}
+
+#navLinks ul {
+  flex-direction: column;
+  margin-top: 100px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
+
+#SUb {
+  color: black;
+  font-family: "Gothic A1", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  padding-left: 20px;
+  padding-right: 40px;
+  border-radius: 20px;
+  background-color: white;
+  border: none;
+  position: relative;
+  text-align: left;
+  margin-top: 500px;
+}
+#LIb {
+  color: white;
+  font-family: "Gothic A1", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  padding-left: 20px;
+  padding-right: 45px;
+  border-radius: 20px;
+  background: none;
+  border: solid 1px white;
+  position: relative;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.form-login {
+  display: block;
+  position: absolute;
+  top: 10%;
+  left: 45%;
+}
+.loginto{
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.controls { 
+  border-radius: 10px;
+  width: 300px;
+  height: 50px;
+  padding-left: 16px;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: #f6f6f6;
+  font-size: 14px;
+  
+}
+.fa-regular{
+    z-index: 1;
 }
 
 
+.loginbutton {
+  border-radius: 20px;
+  width: 300px;
+  height: 40px;
+  padding-left: 16px;
+  margin-top: 4px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: #dcdcdc;
+  text-align: left;
+  color: #797878;
+  font-size: 15px;
+  font-weight: bold;
 
-@media screen and (min-width:768px){
-    
-    #MainNavbar{
-        z-index: 1;
-        flex-direction: column;
-        align-items: flex-start;
-        background: black;
-        margin-top: 0;
-    }
-    
-    .navbar{
-        overflow-y: hidden;
-        position: fixed;
-        width: 160px;
-        height: 100vh;
-        align-items: flex-start;
-    
-    }
-    .navbar-brand{
-        margin-left: 2rem;
-        margin-top: -1.8rem;
-        font-size: 12px;
-    }
 }
-    
-    
-    #navLinks ul{
-        flex-direction: column;
-        margin-top: 100px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 18px;
-        font-weight:500;
-        color: white;
-    }
-    
-    #SUb{
-    
-        color: black;
-        font-family: "Gothic A1", sans-serif;
-        font-size: 14px;
-        font-weight: 600;
-        padding-bottom: 6px;
-        padding-top: 6px;
-        padding-left: 20px;
-        padding-right: 40px;
-        border-radius: 20px;
-        background-color: white;
-        border:none;
-        position: relative;
-        text-align: left;
-        margin-top: 500px;
-    }
-    #LIb{
-        color: white;
-        font-family: "Gothic A1", sans-serif;
-        font-size: 14px;
-        font-weight: 600;
-        padding-bottom: 6px;
-        padding-top: 6px;
-        padding-left: 20px;
-        padding-right: 45px;
-        border-radius: 20px;
-        background: none;
-        border: solid 1px white;
-        position: relative;
-        text-align: left;
-        margin-top: 10px;
-    }
+.forgotpwrd{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
 
-    .form-login{
-        display:block;
-        
-        position: absolute;
-        top: 10%;
-        left: 45%;
-        
-    }
-    .form1 input{
-        border-radius: 10px;
-        padding: 20px 10px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        border: none;
-        background-color: #dcdcdc;
-    }
+
+.loginbutton-google {
+  border-radius: 20px;
+  width: 300px;
+  height: 40px;
+  padding-left: 16px;
+  margin-top: 4px;
+  margin-bottom: 20px;
+  border: solid 1.5px #dcdcdc ;
+  background-color: white;
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+.loginbutton-apple {
+    border-radius: 20px;
+    width: 300px;
+    height: 40px;
+    padding-left: 16px;
+    margin-top: 4px;
+    margin-bottom: 20px;
+    border: solid 1.5px #dcdcdc;
+    background-color: white;
+    text-align: center;
+    color: #000000;
+    font-size: 15px;
+    font-weight: bold;
+}
+.have-acc{
+    font-size: 10px;
+    margin-bottom: 4px;
+}
+
+.signup {
+    border-radius: 20px;
+    width: 300px;
+    height: 40px;
+    padding-left: 16px;
+    margin-top: 4px;
+    margin-bottom: 20px;
+    border: solid 1.5px #dcdcdc ;
+    background-color: white;
+    text-align: left;
+    color: #000000;
+    font-size: 15px;
+    font-weight: bold;
+}
