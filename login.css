@@ -104,9 +104,7 @@ body {
   font-size: 14px;
   
 }
-.fa-regular{
-    z-index: 1;
-}
+
 
 
 .loginbutton {
@@ -145,6 +143,7 @@ body {
   font-size: 15px;
   font-weight: bold;
 }
+
 .loginbutton-apple {
     border-radius: 20px;
     width: 300px;
@@ -159,6 +158,13 @@ body {
     font-size: 15px;
     font-weight: bold;
 }
+
+.loginbutton-google img, .loginbutton-apple img{
+  position: absolute;
+  display: block;
+
+}
+
 .have-acc{
     font-size: 10px;
     margin-bottom: 4px;

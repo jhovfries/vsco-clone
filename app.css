@@ -287,6 +287,9 @@ body {
   text-align: left;
 }
 
+
+
+
 /*.cardsforcarousel { 
     margin-left: 160px;
     margin-top: 200px;
@@ -555,4 +558,22 @@ body {
 }
 .buttonandbrand img {
   margin-left: 200px;
+}
+
+
+
+.container-terms-list li{
+  display:inline-flex;
+  list-style: none;
+  margin-left: 30px;
+}
+.container-terms-list ul{
+ margin-left: 130px;
+
+}
+
+.Copyright{
+ margin-top: -40px;
+ margin-left: 1600px;
+
 }
