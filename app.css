@@ -449,7 +449,7 @@ body {
   background-position: 100px;
   display: grid;
   position: static;
-  margin-bottom: 100px;
+
   margin-top: 100px;
   height: 700px;
   font-family: "Gothic A1", sans-serif;
@@ -487,10 +487,14 @@ body {
   text-align: left;
 }
 
+footer{
+  background-color: #000000;
+  margin-top: 0;
+}
 .footer-list {
   display: flex;
   justify-content: flex-end;
-  margin-top: -126px;
+  margin-top: -146px;
   content: space-between;
 }
 .footer-list li {
@@ -498,7 +502,7 @@ body {
   margin: 0 40px;
   justify-content: left;
   line-height: 19px;
-  font-size: 16px;
+  font-size: 14px;
 }
 .footer-list li :hover {
   color: white;
@@ -507,12 +511,19 @@ body {
 .a-link-footer {
   color: white;
 }
+.thefooter{
+  padding-top: 60px;
+  display: block;
+}
 .container-list-footer h4 {
   padding-left: 38px;
   font-weight: 600;
+  margin-top: 26px;
   margin-bottom: 20px;
   font-size: 18px;
+  
 }
+
 
 #Buttonfooter1 {
   font-family: "Gothic A1", sans-serif;
