@@ -1,7 +1,12 @@
-body {
+html, body {
   background-color: #111;
   font-family: "Gothic A1", sans-serif;
   color: white;
+  margin: 0;
+  padding: 0;
+overflow-x: hidden;
+  height: 100%;
+  width: 100%;
 }
 .principalviewpage {
   background-image: url("https://assets-global.website-files.com/64e27cdd42db7ecf119d5e61/662b67b3fba923b8dd3a1642_hp-header-cover%402x-p-2000.jpg");
@@ -242,6 +247,7 @@ body {
   justify-content: space-between;
   margin-right: 120px;
   flex-wrap: wrap;
+  column-gap:16px;
 }
 
 .text_div h2,
