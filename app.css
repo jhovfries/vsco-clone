@@ -189,9 +189,12 @@ overflow-x: hidden;
   color: white;
   font-size: 28px;
   text-align: justify;
+  font-weight: bold;
+
 }
 
 .card p {
+  
   color: white;
   font-size: 16px;
   justify-content: flex-start;
@@ -395,7 +398,7 @@ overflow-x: hidden;
   margin-right: 0;
   flex-wrap: wrap;
 }
-
+/*
 .carousel-control-prev {
   background: none;
   border: none;
@@ -403,7 +406,7 @@ overflow-x: hidden;
 .carousel-control-next {
   background: none;
   border: none;
-}
+} */
 
 .card-t-f1 {
   color: white;
